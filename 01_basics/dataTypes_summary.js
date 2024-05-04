@@ -39,3 +39,30 @@ const Myfunction = function(){
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof
 
 
+//**************************************************** */
+
+// Memory are of 2 types : Stack and Heap
+
+// stack (primitive) , heap(non-primitive)
+
+let myChannel = "pitch_perfect_editz"
+
+let anotherName = myChannel
+anotherName ="affluence.ar"
+
+// console.log(myChannel);
+// console.log(anotherName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@xyz"
+}
+
+let userTwo = userOne
+
+userTwo.email = "vedant@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
