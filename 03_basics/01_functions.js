@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
                         //parameters
 // function addTwoNumbers(number1,number2){
@@ -56,3 +57,32 @@ function returnSomeValue(getArray){
 
 console.log(returnSomeValue(myNewArray));
 
+=======
+function sayMyName() {
+    console.log("v");
+    console.log("e");
+    console.log("d");
+    console.log("a");
+    console.log("n");
+    console.log("t");
+}
+
+// sayMyName()
+                      //Parameters
+// function addTwoNumbers(number1,number2){
+//     console.log(number1 + number2);
+// }
+
+
+function addTwoNumbers(number1,number2){
+    let result = number1 + number2;
+    return result;
+}
+
+            //arguments
+const result = addTwoNumbers(3,5); 
+
+console.log("result: ", result);
+
+
+>>>>>>> b609bd9 (functions and bit of notes)
