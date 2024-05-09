@@ -40,6 +40,18 @@ const Myfunction = function(){
 
 
 //**************************************************** */
+// Memory are of 2 types : Stack and Heap
+
+// stack (primitive) , heap(non-primitive)
+
+let myChannel = "pitch_perfect_editz"
+
+let anotherName = myChannel
+anotherName ="affluence.ar"
+
+console.log(anotherName);
+
+
 
 // Memory are of 2 types : Stack and Heap
 
@@ -64,5 +76,4 @@ userTwo.email = "vedant@google.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
-
 
